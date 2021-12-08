@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Delete_workflow_runs
-        uses: smallprogram/Cloud189Checkin-main/delete_workflow_runs@master
+        uses: smallprogram/Cloud189Checkin-main/delete-workflow-runs@main
         with:
           token: ${{ secrets.PAT }}
           repository: ${{ github.repository }}
